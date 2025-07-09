@@ -26,3 +26,23 @@ This project uses real-time blink detection via webcam to simulate the spacebar 
    ```bash
    pip install -r requirements.txt
 
+   Download the shape_predictor_68_face_landmarks.dat and place it in the same folder.
+
+Add your ChromeDriver path in config.json:
+
+json
+Copy
+Edit
+{
+  "driver_path": "C:\\path\\to\\chromedriver.exe"
+}
+Run the script:
+
+bash
+Copy
+Edit
+python main.py
+Go to chrome://dino in your browser and blink to jump!
+
+
+
